@@ -81,12 +81,18 @@ main {
     height: auto;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 2.5rem 2rem;
+}
+
+#left a {
+    color: #333;
+    text-decoration: none;
 }
 
 #education, #contact, #languages, #bio {
     text-decoration: none;
     list-style: none;
+    font-size: 0.9rem;
 }
 
 #bio li {
@@ -112,6 +118,10 @@ aside p {
 #left hr {
     color: #333;
     width: 100%;
+}
+
+#left {
+    font-size: .9rem;
 }
 
 h3 {
@@ -165,6 +175,13 @@ h3 {
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     .page {
         width: 80%;
+    }
+    #left {
+        width: 32%;
+        min-width: 320px;
+    }
+    #contact {
+        margin-left: -12px;
     }
 }
 
